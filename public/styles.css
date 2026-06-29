@@ -53,13 +53,18 @@ body {
 }
 
 .hero {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem 4rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--bg-soft), var(--bg));
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .hero h1 {
